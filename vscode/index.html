@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <link href="css/base.css" rel="stylesheet">
+    <style>
+        .header-container {
+            height: 50px;
+            background: #373277;
+        }
+
+        .title {
+            color: white;
+            font-size: 20px;
+        }
+
+        .log {
+            position: relative;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…MsMTEuMzUsMi40MTksMTMuOTM5Wk03LjY0NCwxMCwxMiwxMy4yODNWNi43MTdaIi8+PC9zdmc+);
+            background-size: 24px;
+            background-repeat: no-repeat;
+            background-position: left 50%;
+            padding-left: 36px;
+            font-size: 20px;
+            letter-spacing: -0.04rem;
+            color: white;
+            min-height: 50px;
+            padding-top: 15px;
+            line-height: 20px;
+        }
+
+        .navbar-default {
+            background: none;
+            border: none;
+        }
+
+        .collapse ul li a {
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            background: none;
+        }
+
+        .navbar-default .navbar-nav > .active > a {
+            background: none;
+        }
+
+        .navbar-default .navbar-nav > .active > a:hover {
+            background: none;
+        }
+
+        .nav .search .search-form .form-control:focus, .nav .search .search-form .form-control:active {
+            outline: 1px solid rgba(255, 255, 255, 0.5);
+            outline-offset: -1px;
+            box-shadow: none;
+        }
+
+        .version {
+            background: white;
+
+            width: 100%;
+        }
+
+        .container-version {
+            text-align: center;
+            font-size: 17px;
+            padding-top: 15px;
+
+        }
+
+        .containes {
+            background: #373277;
+        }
+
+        .containes .container .dlink {
+            background-color: #477a32;
+            height: 6.5rem;
+            border: none;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .lg {
+                background-image: url(image/screenshot-lg.png);
+                padding-bottom: 59.46667%;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .lg {
+                background-image: url(image/screenshot.png);
+                padding-bottom: 72.28525%;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .form-control {
+                display: none !important;
+            }
+
+            .form-group {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .lg {
+                background-size: 750px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .lg {
+                background-size: 617px;
+            }
+        }
+
+        .lg {
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .value-prop {
+            font-size: 20px;
+            text-decoration: none;
+            color: gray;
+
+        }
+
+        .value-prop:hover {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .value-prop img {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+
+        }
+
+        .meet-intellisense .margin {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+navbar-fixed-top
+<body>
+<div>
+    <header class="header-container " role="导航栏背景">
+        <div class="container ">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand log" href="#">
+
+                        <span class="title">Visual Studio Code</span>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+
+                        <li class="active">
+
+                            <a href="#">Docs</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                        <li>
+                            <a href="#">Extensions</a>
+                        </li>
+
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div class="version">
+            <div class="contianer container-version">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            <a href="#">Version&nbsp;1.24&nbsp;</a>is now available! Read about the new features and
+                            fixes from May.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="containes">
+            <div class="container">
+                <div class="row">,ll
+                    <div class="col-md-4 center">
+                        <div class="texts" style="color:white;">
+                            <h1>Code editing. <strong>Redefined.</strong></h1>
+                            <div class="lead">
+                                <p>
+                        <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                            <span itemprop="description">Free</span>.
+                            <meta itemprop="price" content="0">
+                            <meta itemprop="priceCurrency" content="USD">
+                        </span> Open source. Runs everywhere.
+                                </p>
+                            </div>
+                            <button class="link-button dlink">
+                                "Downlaoad for Windows"
+                                <small class="build-type">Stable Build</small>
+                            </button>
+                            <p id="download-matrix-label" class="subtext text-center"><a href="#alt-downloads">Other
+                                platforms</a> and <a href="/insiders">Insiders Edition</a>
+                            </p>
+                            <p class="terms">By using VS Code, you agree to its <span class="wrap-together"><a
+                                    id="home-terms-link" href="#home-terms">license and privacy statement</a>.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="lg">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vlaue-props" style="background: white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+                            <a class="value-prop" id="home-value-prop-intellisense-link" href="#meet-intellisense">
+                                <div class="value-prop-icon intellisense">
+                                    <img src="image/code.svg">
+                                </div>
+                                IntelliSense
+                            </a>
+                        </div>
+
+                        <div class="col-sm-3 col-xs-6">
+                            <a class="value-prop" id="home-value-prop-debugging-link" href="#powerful-debugging">
+                                <div class="value-prop-icon debugging">
+                                    <img src="image/code.svg">
+                                </div>
+                                Debugging
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-xs-6"><a class="value-prop" id="home-value-prop-git-link"
+                                                          href="#built-in-git">
+                            <div class="value-prop-icon git">
+                                <img src="image/code.svg">
+                            </div>
+                            Built-in Git
+                        </a>
+                        </div>
+                        <div class="col-sm-3 col-xs-6"><a class="value-prop" id="home-value-prop-extensions-link"
+                                                          href="#hundreds-of-extensions">
+                            <div class="value-prop-icon extensions-icon">
+                                <img src="image/code.svg">
+                            </div>
+                            Extensions
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="meet-intellisense" style="background: #f5f5f5;">
+                <div class="container #f5f5f5;">
+                    <div class="row margin">
+                        <div class="col-sm-4">
+                            <img src="image/home-debug.svg">
+                        </div>
+                        <div class="col-sm-7">
+                            <h2>Meet IntelliSense.</h2>
+                            <p>
+                                Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart
+                                completions based on variable types, function definitions, and imported modules.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="meet-intellisense" style="background: white;">
+                <div class="container">
+                    <div class="row margin">
+                        <div class="col-sm-7">
+                            <h2>Meet IntelliSense.</h2>
+                            <p>
+                                Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart
+                                completions based on variable types, function definitions, and imported modules.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="image/home-intellisense.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="meet-intellisense" style="background: #f5f5f5;">
+                <div class="container">
+                    <div class="row margin">
+                        <div class="col-sm-4">
+                            <img src="image/home-git.svg">
+                        </div>
+                        <div class="col-sm-7">
+                            <h2>Meet IntelliSense.</h2>
+                            <p>
+                                Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart
+                                completions based on variable types, function definitions, and imported modules.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="meet-intellisense" style="background: white;">
+                <div class="container">
+                    <div class="row margin">
+                        <div class="col-sm-7">
+                            <h2>Meet IntelliSense.</h2>
+                            <p>
+                                Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart
+                                completions based on variable types, function definitions, and imported modules.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="image/download.png" style="" height="228px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div id="alt-downloads" class="swimlane alt-downloads download-buttons win">
+                <div class="buttons">
+                    <div class="download">
+                        <div class="logo windows"></div>
+                        <button class="link-button dlink" data-os="win" aria-label="Windows download" role="link">
+                            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code">
+                            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code">
+                            Windows<small>Windows 7, 8, 10</small></button>
+                        <p class="dlinks-text">
+                            <a href="javascript:void(0)" tabindex="0" aria-label="windows zip download" role="link" class="dlink" data-os="winzip">.zip</a>
+                            | <a href="#windows32-download-stable" data-toggle="collapse">32 bit versions</a>
+                        </p>
+                        <div class="collapse" id="windows32-download-stable">
+                            <ul class="list-unstyled">
+                                <li><a class="dlink" data-os="win32"><strong>Installer</strong> (32 bit)</a></li>
+                                <li><a class="dlink" data-os="win32zip"><strong>.zip</strong> (32 bit)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="download">
+                        <div class="logo linux"></div>
+                        <button class="link-button dlink" data-os="linux64_deb" aria-label="Linux Debian Ubuntu download" role="link">
+                            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code">
+                            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code">
+                            .deb<small>Debian, Ubuntu</small></button>
+                        <button class="link-button dlink" data-os="linux64_rpm" aria-label="Linux Red Hat Fedora SUSE download" role="link">
+                            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code">
+                            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code">
+                            .rpm<small>Red Hat, Fedora, SUSE</small></button>
+                        <p class="dlinks-text">
+                            <a href="javascript:void(0)" class="dlink" data-os="linux64" tabindex="0" aria-label="linux zip download" role="link">.tar.gz</a> | <a href="#linux32-downloads-stable" data-toggle="collapse" aria-label="linux 32 bit version download">32 bit versions</a>
+                        </p>
+                        <div class="collapse" id="linux32-downloads-stable">
+                            <ul class="list-unstyled">
+                                <li><a class="dlink" data-os="linux32_deb"><strong>.deb</strong> (32 bit)</a></li>
+                                <li><a class="dlink" data-os="linux32_rpm"><strong>.rpm</strong> (32 bit)</a></li>
+                                <li><a class="dlink" data-os="linux32"><strong>.tar.gz</strong> (32 bit)</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="download">
+                        <div class="logo mac"></div>
+                        <button class="link-button dlink" data-os="osx" aria-label="Mac download" role="link">
+                            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code">
+                            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code">
+                            Mac<small>macOS 10.9+</small></button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="footer" style="background: gray">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="left col-md-7">
+                            <ul class="links">
+                                <li><span class="message">Hello from Seattle.</span></li>
+                                <li><a href="" aria-hidden="true" onclick="followOnTwitter()" role="button"
+                                       tabindex="0">Follow @code</a></li>
+                                <li>
+                                    <div class="github-star-button"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="right col-md-5"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
